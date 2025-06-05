@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <nav class="nav">
                     <a href="#" class="logo">QANVRY</a>
                     <ul class="nav-links">
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="../index.html">Home</a></li>
                         <li><a href="pages/about.html">About Us</a></li>
                         <li><a href="pages/services.html">Our Services</a></li>
                         <li><a href="pages/contact.html">Contact</a></li>
