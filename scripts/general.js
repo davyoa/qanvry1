@@ -80,21 +80,21 @@ document.addEventListener('DOMContentLoaded', () => {
     if (header) {
         header.innerHTML = `
             <div class="container">
-                <nav class="nav">
-                    <a href="#" class="logo">QANVRY</a>
-                    <ul class="nav-links">
-                        <li><a href="../index.html">Home</a></li>
-                        <li><a href="pages/about.html">About Us</a></li>
-                        <li><a href="pages/services.html">Our Services</a></li>
-                        <li><a href="pages/contact.html">Contact</a></li>
-                    </ul>
-                    <button class="cta-button" id="getStarted">Get Started</button>
-                    <div class="mobile-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </nav>
+            <nav class="nav">
+                <a href="#" class="logo">QANVRY</a>
+                <ul class="nav-links">
+                <li><a href="/qanvry/index.html">Home</a></li>
+                <li><a href="/qanvry/pages/about.html">About Us</a></li>
+                <li><a href="/qanvry/pages/services.html">Our Services</a></li>
+                <li><a href="/qanvry/pages/contact.html">Contact</a></li>
+                </ul>
+                <button class="cta-button" id="getStarted">Get Started</button>
+                <div class="mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
             </div>
         `;
     }
