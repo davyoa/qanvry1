@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Qanvry | Get in Touch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/general.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header"></header>
+    <section class="cta-section scroll-reveal">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Contacts</h2>
+                <p>Multiple ways to reach us. Choose the method that works best for you.</p>
+            </div>
+            <div class="cta-buttons">
+                <a href="#contact-form" class="btn-primary">
+                    <i class="fas fa-envelope"></i>
+                    Send Us a Message
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info Section -->
+    <section class="services scroll-reveal">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>Speak directly with our team for immediate assistance and consultation.</p>
+                    <a href="tel:+233247051509" class="service-link">
+                        +233 24 705 1509 <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p>Send us a detailed message and we'll get back to you within 24 hours.</p>
+                    <a href="mailto:info@qanvry.com" class="service-link">
+                        info@qanvry.com <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Office</h3>
+                    <p>Visit our office for face-to-face meetings and consultations.</p>
+                    <a href="#" class="service-link">
+                        P.O. Box CT5964, Cantonments, Accra <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Business Hours</h3>
+                    <p>We're available during these hours for calls and meetings.</p>
+                    <div class="service-link">
+                        Mon - Fri: 8:00 AM - 6:00 PM <br>
+                        Sat: 9:00 AM - 4:00 PM
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="about scroll-reveal" id="contact-form">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Send Us a Message</h2>
+                    <p>Fill out the form below and we'll get back to you as soon as possible. Whether you have a question about our services, need a quote, or want to discuss a project, we're here to help.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-reply"></i>
+                            </div>
+                            <div>
+                                <h4>Quick Response</h4>
+                                <p>We respond to all inquiries within 24 hours</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div>
+                                <h4>Expert Consultation</h4>
+                                <p>Get advice from our experienced professionals</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Confidential</h4>
+                                <p>Your information is secure and confidential</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-section">
+                    <h2>Ready to Get Started?</h2>
+                    <p>Your email address will not be published. Required fields are marked *</p>
+                    
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Your Email *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Your Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Service Needed</label>
+                                <select id="service" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="data-analysis">Data Analysis</option>
+                                    <option value="web-development">Web Development</option>
+                                    <option value="graphics-design">Graphics Design</option>
+                                    <option value="digital-marketing">Digital Marketing</option>
+                                    <option value="consulting">Consulting</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="submit-btn">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="section-header" style="color: white; margin-bottom: 2rem;">
+                <h2>Find Us</h2>
+                <p>Located in the heart of Accra, Ghana</p>
+            </div>
+            <div id="map" style="height: 400px; background: rgba(255,255,255,0.1); border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white;">
+                <div style="text-align: center;">
+                    <i class="fas fa-map-marker-alt" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                    <h3>Interactive Map Coming Soon</h3>
+                    <p>P.O. Box CT5964, Cantonments, Accra, Ghana</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="team scroll-reveal">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Quick answers to common questions about our services and processes.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>How quickly can you start my project?</h3>
+                    <p>We typically begin new projects within 1-2 weeks of contract signing, depending on project complexity and our current workload.</p>
+                </div>
+                <div class="service-card">
+                    <h3>How do you price your services?</h3>
+                    <p>Our pricing is based on project scope, complexity, and timeline. We provide detailed quotes after understanding your specific requirements.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Do you provide ongoing support?</h3>
+                    <p>Yes, we offer comprehensive support and maintenance packages to ensure your solutions continue to perform optimally.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section scroll-reveal">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Get Started?</h2>
+                <p>Let's discuss your project and explore how we can help you achieve your goals.</p>
+                <a href="#contact-form" class="btn-primary">
+                    <i class="fas fa-rocket"></i>
+                    Start Your Project
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>QANVRY</h3>
+                    <p>Leading technology company delivering innovative solutions for businesses worldwide. Excellence in technology, innovation in service.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <p><a href="index.html">Home</a></p>
+                    <p><a href="about.html">About Us</a></p>
+                    <p><a href="services.html">Services</a></p>
+                    <p><a href="contact.html">Contact</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <p><a href="#">Data Analysis</a></p>
+                    <p><a href="#">Web Development</a></p>
+                    <p><a href="#">Graphics Design</a></p>
+                    <p><a href="#">Digital Marketing</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Email: info@qanvry.com</p>
+                    <p>Phone: +233 24 705 1509</p>
+                    <p>Address: P.O. Box CT5964, Cantonments, Accra</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 QANVRY. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../scripts/general.js"></script>
+</body>
+</html>
